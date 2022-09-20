@@ -1,0 +1,65 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: rgb(150, 123, 182);
+  
+    scroll-behavior: smooth;
+  }
+  
+  #banner {
+    border: 2px solid rgb(0, 0, 0);
+  
+    background-color: lightblue;
+    font-family: Consolas, monaco, monospace;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+  }
+  
+  table#banner {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  a:hover {
+    color: red;
+  }
+  
+  a:visited {
+    color: black;
+  }
+  
+  a {
+    color: black;
+  }
+  
+  .bannerimage {
+    width: 100%;
+    background-image: url(http://s30.postimg.org/x0ne0p5wx/bootsrap.png);
+    height: 250px;
+    background-color: purple;
+    background-position: center;
+  }
+  
+  p,
+  h3 {
+    text-align: center;
+  }
+  
+  .sidepic {
+    height: 200px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  button{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+  }
