@@ -1,0 +1,167 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: #595F72;
+  
+    scroll-behavior: smooth;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  #banner {
+  
+    font-family: Consolas, monaco, monospace;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+  }
+  
+  
+  
+  a:hover:not(footer a) {
+    color: rgb(255, 255, 255);
+  }
+  
+  a:visited :not(footer a) {
+    color: black;
+  }
+  
+  a :not(footer a) {
+    color: black;
+  }
+  
+  /*p,
+  h3 {
+    text-align: center;
+  }
+  
+ 
+  
+  
+ /* nav{
+    display: flex;
+    align-content: space-between;
+  }*/
+
+
+#banner{
+ 
+  display: flex;
+  justify-content: space-between;
+
+}
+
+nav a {
+  padding: 8px;
+  flex: 1;
+  text-align: center;
+  background-color:#595F72;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 1.1em;
+  transition: all 0.4s ease-out;
+
+}
+
+nav a:hover {
+  background-color: rgb(114, 132, 94);
+}
+
+#profiel{
+  height: 300px;
+  width: auto;
+  border-radius: 10%;
+  margin-right: 5%;
+}
+
+#inleiding p{
+display: flex;
+margin-right: 10%;
+}
+#inleiding {
+  display: flex;
+  align-items: stretch ;
+  margin-top: 10%;
+  width: 50vw;
+  margin-left: 50% ;
+  margin-right: 50%;
+  border: 4px solid rgb(0, 0, 0);
+  background-color: #575D90;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 7px 10px 17px rgba(0, 0, 0, 0.2);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  font-size: 20px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+article{
+  margin-bottom: 20%;
+  border: 4px rgb(255, 0, 0);
+}
+
+footer{
+  height: 200px;
+  background-color: rgb(51, 51, 111);
+  display: flex;
+  justify-content:space-evenly;
+  border: #000000 2px;
+}
+
+#hobby{
+  display: flex;
+  margin-top: 10%;
+  width: 500px;
+  margin-left: 50% ;
+  margin-right: 50%;
+  border: 4px solid rgb(0, 0, 0);
+  background-color: #575D90;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 7px 10px 17px rgba(0, 0, 0, 0.2);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  font-size: 20px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+#talen{
+  display: flex;
+  margin-top: 10%;
+  width: 500px;
+  border: 4px solid rgb(0, 0, 0);
+  background-color: #575D90;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 7px 10px 17px rgba(0, 0, 0, 0.2);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  font-size: 20px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+.foot{
+ color: white;
+ padding: 10px;
+ background-color: #603131;
+ border-radius: 15%;
+
+
+}
+
+h3{
+  color: bisque;
+}
+
+@media (min-width: 480px) and (max-width:767px) {
+  body{
+    background-color: black;
+    color: beige;
+  }
+}
