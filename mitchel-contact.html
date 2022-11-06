@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="front end 1.css">
+
+</head>
+<section>
+    <header>
+      <nav id="banner">
+        
+        <a href="front end 1.html"> Home </a> 
+        <a href="mitchel-hobby.html">Hobby's</a> 
+        <a href="mitchel-cle.html">CLE</a>
+        <a href="mitchel-contact.html">Contact</a> 
+        <a href="#socials"> Socials </a> 
+    </nav>
+      </header>
+      
+      <main>
+<body>
+    <h3 class="kopje">Laat feedback achter hieronder.</h3>
+    <section id="forms">
+    <form action="contact.php" method="post">
+       <p>Name:</p> <input type="text" name="name"><hr>
+        <p>Email:</p> <input type="text" name="email"><hr>
+
+        <label for="rate">Wat vond U van mijn portfolio</label>
+          <br />
+          <span>Slecht</span>
+          <input
+            type="range"
+            name="rate"
+            id="rate"
+            value="3"
+            min="1"
+            max="5"
+          />
+          <span>Perfectie</span><hr>
+          <section class="favoriet">
+            <span>Wat was Uw favoriete gedeelte?</span>
+            <br />
+            <input type="checkbox" name="favoriet" id="foto" value="foto" />
+            <label for="foto">Achetrgrond foto</label>
+            <input type="checkbox" name="favoriet" id="Layout" value="Layout" />
+            <label for="Layout">Layout</label>
+            <input type="checkbox" name="favoriet" id="Kleuren" value="Kleuren" />
+            <label for="Kleuren">Kleuren</label> <hr>
+          </section>
+          <p>Feedback:</p><br><textarea rows="5" name="Feedback" cols="30"></textarea><br>
+        <input type="submit" name="submit" value="Submit">
+        </form>
+    </section>
+    <section >
+      <a href="mitchel-contact.html"><chat  id="chat">Laat Feedback Achter!!</chat></a>
+</section>
+
+    
+</body>
+<footer id="socials">
+    <p><a  class="foot" href="https://github.com/mobilson"> Github</a></p>
+    <p ><a  class="foot" href="https://www.instagram.com/mob_sama/"> Instagram</a></p>
+  </footer>
+</main>
+</html>

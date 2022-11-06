@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+  padding: 0;
+    scroll-behavior: smooth;
+    background-image:url(am1.png)  ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-attachment: fixed;
+}

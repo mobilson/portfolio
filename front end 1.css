@@ -1,0 +1,208 @@
+html {
+    scroll-behavior: smooth;
+
+  }
+  
+  body  {
+  margin: 0;
+  padding: 0;
+    scroll-behavior: smooth;
+    background-image:url(backmob.png)  ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-attachment: fixed;
+
+  }
+  
+  a:hover:not(footer a) {
+    color: rgb(255, 255, 255);
+  }
+  
+  a:visited :not(footer a) {
+    color: black;
+  }
+  
+  a :not(footer a) {
+    color: black;
+  }
+  
+  /*p,
+  h3 {
+    text-align: center;
+  }
+  
+ 
+  
+  
+ /* nav{
+    display: flex;
+    align-content: space-between;
+  }*/
+
+
+#banner{
+ 
+  display: flex;
+  justify-content: space-between;
+
+}
+
+nav a {
+  padding: 15px;
+  flex: 1;
+  text-align: center;
+  background-color:#000000;
+  text-decoration: none;
+  color: #344966;
+  font-size: 1.1em;
+  transition: all 0.4s ease-out;
+  font-family: Consolas, monaco, monospace;
+    font-size: 26px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+
+}
+
+nav a:hover {
+  background-color: #344966;
+}
+
+header {
+  position: sticky;
+  top:0px;
+}
+
+#profiel{
+  height: 300px;
+  width: auto;
+  border-radius: 10%;
+  margin-right: 5%;
+}
+
+.info p{
+display: flex;
+margin-right: 8%;
+margin-left: 5%;
+}
+.info {
+  color:aliceblue;
+  display: flex;
+  width: 60vw;
+  margin-right: auto;
+  margin-bottom: 10%;
+  font-size: 35px;
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.kopje{
+  margin-top: 10%;
+  font-size: 50px;
+  margin-left: 3%;
+
+}
+
+footer{
+  margin-top: 100%;
+  height: 50px;
+  background-color: #5E5768;
+  display: flex;
+  justify-content:space-evenly;
+  border: #000000 2px;
+  margin: 0 auto;
+}
+
+#pitch{
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  background-color: bisque;
+  border-radius: 15px;
+  margin-left: 45vw; 
+  bottom: 60px;
+  position: absolute;
+}
+
+
+
+.foot{
+ color: rgb(0, 0, 0);
+ padding: 10px;
+ background-color: bisque;
+ border-radius: 15px;
+
+
+}
+
+h3{
+  color: bisque;
+}
+
+
+
+/* media queries */
+
+@media (min-width: 480px) and (max-width:767px) {
+  body{
+    background-color: black;
+    color: beige;
+  }
+
+  .info,
+  #inleiding{
+    border: #603131 solid 4px;
+
+  }
+  nav {
+    flex-direction:column;
+  }
+}
+
+/*css voor contact*/
+
+#forms{
+  display: flex;
+  margin-right: 8%;
+  margin-left: 5%;
+  }
+  #forms {
+    color:aliceblue;
+    display: flex;
+    width: 60vw;
+    margin-right: auto;
+    margin-bottom: 10%;
+    font-size: 25px;
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+
+/* vanaf hier is het de css van de melding animatie */
+#chat{ 
+  display: block;
+  position: absolute;
+  position: fixed;
+  color: aliceblue;
+  border-radius: 125px;
+  bottom: 10px;
+  right: 20px;
+  background-color: salmon;
+  padding: 20px;
+  font-size: 1.2em;
+  transform: translateY(100px);
+  animation: show-chat  1s ease-out 1s forwards;
+}
+
+@keyframes show-chat{
+  from{
+    transform: translateY(100px);
+
+
+  }
+  to{
+    transform: translateY(0px);
+
+
+  }
+
+}
+
